@@ -1,0 +1,728 @@
+{
+  "4": [
+    {
+      "daysInTreatment": 1,
+      "currentAdherence": 1
+    },
+    {
+      "daysInTreatment": 2,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 3,
+      "currentAdherence": 0.6666666666666666
+    },
+    {
+      "daysInTreatment": 4,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 5,
+      "currentAdherence": 0.4
+    },
+    {
+      "daysInTreatment": 6,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 7,
+      "currentAdherence": 0.5714285714285714
+    },
+    {
+      "daysInTreatment": 8,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 9,
+      "currentAdherence": 0.5555555555555556
+    },
+    {
+      "daysInTreatment": 10,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 11,
+      "currentAdherence": 0.45454545454545453
+    },
+    {
+      "daysInTreatment": 12,
+      "currentAdherence": 0.4166666666666667
+    },
+    {
+      "daysInTreatment": 13,
+      "currentAdherence": 0.46153846153846156
+    },
+    {
+      "daysInTreatment": 14,
+      "currentAdherence": 0.42857142857142855
+    },
+    {
+      "daysInTreatment": 15,
+      "currentAdherence": 0.4666666666666667
+    },
+    {
+      "daysInTreatment": 16,
+      "currentAdherence": 0.5
+    },
+    {
+      "daysInTreatment": 17,
+      "currentAdherence": 0.5294117647058824
+    },
+    {
+      "daysInTreatment": 18,
+      "currentAdherence": 0.5555555555555556
+    },
+    {
+      "daysInTreatment": 19,
+      "currentAdherence": 0.5263157894736842
+    },
+    {
+      "daysInTreatment": 20,
+      "currentAdherence": 0.55
+    },
+    {
+      "daysInTreatment": 21,
+      "currentAdherence": 0.5714285714285714
+    },
+    {
+      "daysInTreatment": 22,
+      "currentAdherence": 0.5909090909090909
+    },
+    {
+      "daysInTreatment": 23,
+      "currentAdherence": 0.6086956521739131
+    },
+    {
+      "daysInTreatment": 24,
+      "currentAdherence": 0.625
+    },
+    {
+      "daysInTreatment": 25,
+      "currentAdherence": 0.64
+    },
+    {
+      "daysInTreatment": 26,
+      "currentAdherence": 0.6538461538461539
+    },
+    {
+      "daysInTreatment": 27,
+      "currentAdherence": 0.6666666666666666
+    },
+    {
+      "daysInTreatment": 28,
+      "currentAdherence": 0.6785714285714286
+    },
+    {
+      "daysInTreatment": 29,
+      "currentAdherence": 0.6896551724137931
+    },
+    {
+      "daysInTreatment": 30,
+      "currentAdherence": 0.7
+    },
+    {
+      "daysInTreatment": 31,
+      "currentAdherence": 0.7096774193548387
+    },
+    {
+      "daysInTreatment": 32,
+      "currentAdherence": 0.71875
+    },
+    {
+      "daysInTreatment": 33,
+      "currentAdherence": 0.696969696969697
+    },
+    {
+      "daysInTreatment": 34,
+      "currentAdherence": 0.7058823529411765
+    },
+    {
+      "daysInTreatment": 35,
+      "currentAdherence": 0.7142857142857143
+    },
+    {
+      "daysInTreatment": 36,
+      "currentAdherence": 0.7222222222222222
+    },
+    {
+      "daysInTreatment": 37,
+      "currentAdherence": 0.7297297297297297
+    },
+    {
+      "daysInTreatment": 38,
+      "currentAdherence": 0.7105263157894737
+    },
+    {
+      "daysInTreatment": 39,
+      "currentAdherence": 0.717948717948718
+    },
+    {
+      "daysInTreatment": 40,
+      "currentAdherence": 0.725
+    },
+    {
+      "daysInTreatment": 41,
+      "currentAdherence": 0.7317073170731707
+    },
+    {
+      "daysInTreatment": 42,
+      "currentAdherence": 0.7380952380952381
+    },
+    {
+      "daysInTreatment": 43,
+      "currentAdherence": 0.7209302325581395
+    },
+    {
+      "daysInTreatment": 44,
+      "currentAdherence": 0.7272727272727273
+    },
+    {
+      "daysInTreatment": 45,
+      "currentAdherence": 0.7333333333333333
+    },
+    {
+      "daysInTreatment": 46,
+      "currentAdherence": 0.7391304347826086
+    },
+    {
+      "daysInTreatment": 47,
+      "currentAdherence": 0.7446808510638298
+    },
+    {
+      "daysInTreatment": 48,
+      "currentAdherence": 0.7291666666666666
+    },
+    {
+      "daysInTreatment": 49,
+      "currentAdherence": 0.7346938775510204
+    },
+    {
+      "daysInTreatment": 50,
+      "currentAdherence": 0.74
+    },
+    {
+      "daysInTreatment": 51,
+      "currentAdherence": 0.7450980392156863
+    },
+    {
+      "daysInTreatment": 52,
+      "currentAdherence": 0.75
+    },
+    {
+      "daysInTreatment": 53,
+      "currentAdherence": 0.7547169811320755
+    },
+    {
+      "daysInTreatment": 54,
+      "currentAdherence": 0.7592592592592593
+    },
+    {
+      "daysInTreatment": 55,
+      "currentAdherence": 0.7636363636363637
+    },
+    {
+      "daysInTreatment": 56,
+      "currentAdherence": 0.7678571428571429
+    },
+    {
+      "daysInTreatment": 57,
+      "currentAdherence": 0.7719298245614035
+    },
+    {
+      "daysInTreatment": 58,
+      "currentAdherence": 0.7758620689655172
+    },
+    {
+      "daysInTreatment": 59,
+      "currentAdherence": 0.7796610169491526
+    },
+    {
+      "daysInTreatment": 60,
+      "currentAdherence": 0.7833333333333333
+    },
+    {
+      "daysInTreatment": 61,
+      "currentAdherence": 0.7868852459016393
+    },
+    {
+      "daysInTreatment": 62,
+      "currentAdherence": 0.7903225806451613
+    },
+    {
+      "daysInTreatment": 63,
+      "currentAdherence": 0.7936507936507936
+    },
+    {
+      "daysInTreatment": 64,
+      "currentAdherence": 0.796875
+    },
+    {
+      "daysInTreatment": 65,
+      "currentAdherence": 0.8
+    },
+    {
+      "daysInTreatment": 66,
+      "currentAdherence": 0.803030303030303
+    },
+    {
+      "daysInTreatment": 67,
+      "currentAdherence": 0.8059701492537313
+    },
+    {
+      "daysInTreatment": 68,
+      "currentAdherence": 0.8088235294117647
+    },
+    {
+      "daysInTreatment": 69,
+      "currentAdherence": 0.8115942028985508
+    },
+    {
+      "daysInTreatment": 70,
+      "currentAdherence": 0.8142857142857143
+    },
+    {
+      "daysInTreatment": 71,
+      "currentAdherence": 0.8169014084507042
+    },
+    {
+      "daysInTreatment": 72,
+      "currentAdherence": 0.8194444444444444
+    },
+    {
+      "daysInTreatment": 73,
+      "currentAdherence": 0.8082191780821918
+    },
+    {
+      "daysInTreatment": 74,
+      "currentAdherence": 0.8108108108108109
+    },
+    {
+      "daysInTreatment": 75,
+      "currentAdherence": 0.8
+    },
+    {
+      "daysInTreatment": 76,
+      "currentAdherence": 0.8026315789473685
+    },
+    {
+      "daysInTreatment": 77,
+      "currentAdherence": 0.8051948051948052
+    },
+    {
+      "daysInTreatment": 78,
+      "currentAdherence": 0.7948717948717948
+    },
+    {
+      "daysInTreatment": 79,
+      "currentAdherence": 0.7974683544303798
+    },
+    {
+      "daysInTreatment": 80,
+      "currentAdherence": 0.8
+    },
+    {
+      "daysInTreatment": 81,
+      "currentAdherence": 0.8024691358024691
+    },
+    {
+      "daysInTreatment": 82,
+      "currentAdherence": 0.8048780487804879
+    },
+    {
+      "daysInTreatment": 83,
+      "currentAdherence": 0.8072289156626506
+    },
+    {
+      "daysInTreatment": 84,
+      "currentAdherence": 0.8095238095238095
+    },
+    {
+      "daysInTreatment": 85,
+      "currentAdherence": 0.8117647058823529
+    },
+    {
+      "daysInTreatment": 86,
+      "currentAdherence": 0.813953488372093
+    },
+    {
+      "daysInTreatment": 87,
+      "currentAdherence": 0.8160919540229885
+    },
+    {
+      "daysInTreatment": 88,
+      "currentAdherence": 0.8181818181818182
+    },
+    {
+      "daysInTreatment": 89,
+      "currentAdherence": 0.8202247191011236
+    },
+    {
+      "daysInTreatment": 90,
+      "currentAdherence": 0.8222222222222222
+    },
+    {
+      "daysInTreatment": 91,
+      "currentAdherence": 0.8241758241758241
+    },
+    {
+      "daysInTreatment": 92,
+      "currentAdherence": 0.8260869565217391
+    },
+    {
+      "daysInTreatment": 93,
+      "currentAdherence": 0.8279569892473119
+    },
+    {
+      "daysInTreatment": 94,
+      "currentAdherence": 0.8297872340425532
+    },
+    {
+      "daysInTreatment": 95,
+      "currentAdherence": 0.8315789473684211
+    },
+    {
+      "daysInTreatment": 96,
+      "currentAdherence": 0.8333333333333334
+    },
+    {
+      "daysInTreatment": 97,
+      "currentAdherence": 0.8350515463917526
+    },
+    {
+      "daysInTreatment": 98,
+      "currentAdherence": 0.8367346938775511
+    },
+    {
+      "daysInTreatment": 99,
+      "currentAdherence": 0.8383838383838383
+    },
+    {
+      "daysInTreatment": 100,
+      "currentAdherence": 0.84
+    },
+    {
+      "daysInTreatment": 101,
+      "currentAdherence": 0.8316831683168316
+    },
+    {
+      "daysInTreatment": 102,
+      "currentAdherence": 0.8235294117647058
+    },
+    {
+      "daysInTreatment": 103,
+      "currentAdherence": 0.8252427184466019
+    },
+    {
+      "daysInTreatment": 104,
+      "currentAdherence": 0.8269230769230769
+    },
+    {
+      "daysInTreatment": 105,
+      "currentAdherence": 0.8285714285714286
+    },
+    {
+      "daysInTreatment": 106,
+      "currentAdherence": 0.8301886792452831
+    },
+    {
+      "daysInTreatment": 107,
+      "currentAdherence": 0.8317757009345794
+    },
+    {
+      "daysInTreatment": 108,
+      "currentAdherence": 0.8333333333333334
+    },
+    {
+      "daysInTreatment": 109,
+      "currentAdherence": 0.8348623853211009
+    },
+    {
+      "daysInTreatment": 110,
+      "currentAdherence": 0.8272727272727273
+    },
+    {
+      "daysInTreatment": 111,
+      "currentAdherence": 0.8198198198198198
+    },
+    {
+      "daysInTreatment": 112,
+      "currentAdherence": 0.8125
+    },
+    {
+      "daysInTreatment": 113,
+      "currentAdherence": 0.8053097345132744
+    },
+    {
+      "daysInTreatment": 114,
+      "currentAdherence": 0.7982456140350878
+    },
+    {
+      "daysInTreatment": 115,
+      "currentAdherence": 0.7913043478260869
+    },
+    {
+      "daysInTreatment": 116,
+      "currentAdherence": 0.7844827586206896
+    },
+    {
+      "daysInTreatment": 117,
+      "currentAdherence": 0.7777777777777778
+    },
+    {
+      "daysInTreatment": 118,
+      "currentAdherence": 0.7711864406779662
+    },
+    {
+      "daysInTreatment": 119,
+      "currentAdherence": 0.7647058823529411
+    },
+    {
+      "daysInTreatment": 120,
+      "currentAdherence": 0.7583333333333333
+    },
+    {
+      "daysInTreatment": 121,
+      "currentAdherence": 0.7520661157024794
+    },
+    {
+      "daysInTreatment": 122,
+      "currentAdherence": 0.7459016393442623
+    },
+    {
+      "daysInTreatment": 123,
+      "currentAdherence": 0.7398373983739838
+    },
+    {
+      "daysInTreatment": 124,
+      "currentAdherence": 0.7338709677419355
+    },
+    {
+      "daysInTreatment": 125,
+      "currentAdherence": 0.728
+    },
+    {
+      "daysInTreatment": 126,
+      "currentAdherence": 0.7222222222222222
+    },
+    {
+      "daysInTreatment": 127,
+      "currentAdherence": 0.7165354330708661
+    },
+    {
+      "daysInTreatment": 128,
+      "currentAdherence": 0.7109375
+    },
+    {
+      "daysInTreatment": 129,
+      "currentAdherence": 0.7054263565891473
+    },
+    {
+      "daysInTreatment": 130,
+      "currentAdherence": 0.7
+    },
+    {
+      "daysInTreatment": 131,
+      "currentAdherence": 0.6946564885496184
+    },
+    {
+      "daysInTreatment": 132,
+      "currentAdherence": 0.6893939393939394
+    },
+    {
+      "daysInTreatment": 133,
+      "currentAdherence": 0.6842105263157895
+    },
+    {
+      "daysInTreatment": 134,
+      "currentAdherence": 0.6791044776119403
+    },
+    {
+      "daysInTreatment": 135,
+      "currentAdherence": 0.674074074074074
+    },
+    {
+      "daysInTreatment": 136,
+      "currentAdherence": 0.6691176470588235
+    },
+    {
+      "daysInTreatment": 137,
+      "currentAdherence": 0.6642335766423357
+    },
+    {
+      "daysInTreatment": 138,
+      "currentAdherence": 0.6594202898550725
+    },
+    {
+      "daysInTreatment": 139,
+      "currentAdherence": 0.6546762589928058
+    },
+    {
+      "daysInTreatment": 140,
+      "currentAdherence": 0.65
+    },
+    {
+      "daysInTreatment": 141,
+      "currentAdherence": 0.6453900709219859
+    },
+    {
+      "daysInTreatment": 142,
+      "currentAdherence": 0.6408450704225352
+    },
+    {
+      "daysInTreatment": 143,
+      "currentAdherence": 0.6363636363636364
+    },
+    {
+      "daysInTreatment": 144,
+      "currentAdherence": 0.6319444444444444
+    },
+    {
+      "daysInTreatment": 145,
+      "currentAdherence": 0.6275862068965518
+    },
+    {
+      "daysInTreatment": 146,
+      "currentAdherence": 0.6232876712328768
+    },
+    {
+      "daysInTreatment": 147,
+      "currentAdherence": 0.6190476190476191
+    },
+    {
+      "daysInTreatment": 148,
+      "currentAdherence": 0.6148648648648649
+    },
+    {
+      "daysInTreatment": 149,
+      "currentAdherence": 0.610738255033557
+    },
+    {
+      "daysInTreatment": 150,
+      "currentAdherence": 0.6066666666666667
+    },
+    {
+      "daysInTreatment": 151,
+      "currentAdherence": 0.6026490066225165
+    },
+    {
+      "daysInTreatment": 152,
+      "currentAdherence": 0.5986842105263158
+    },
+    {
+      "daysInTreatment": 153,
+      "currentAdherence": 0.5947712418300654
+    },
+    {
+      "daysInTreatment": 154,
+      "currentAdherence": 0.5909090909090909
+    },
+    {
+      "daysInTreatment": 155,
+      "currentAdherence": 0.5870967741935483
+    },
+    {
+      "daysInTreatment": 156,
+      "currentAdherence": 0.5833333333333334
+    },
+    {
+      "daysInTreatment": 157,
+      "currentAdherence": 0.5796178343949044
+    },
+    {
+      "daysInTreatment": 158,
+      "currentAdherence": 0.5759493670886076
+    },
+    {
+      "daysInTreatment": 159,
+      "currentAdherence": 0.5723270440251572
+    },
+    {
+      "daysInTreatment": 160,
+      "currentAdherence": 0.56875
+    },
+    {
+      "daysInTreatment": 161,
+      "currentAdherence": 0.5652173913043478
+    },
+    {
+      "daysInTreatment": 162,
+      "currentAdherence": 0.5617283950617284
+    },
+    {
+      "daysInTreatment": 163,
+      "currentAdherence": 0.558282208588957
+    },
+    {
+      "daysInTreatment": 164,
+      "currentAdherence": 0.5548780487804879
+    },
+    {
+      "daysInTreatment": 165,
+      "currentAdherence": 0.5515151515151515
+    },
+    {
+      "daysInTreatment": 166,
+      "currentAdherence": 0.5481927710843374
+    },
+    {
+      "daysInTreatment": 167,
+      "currentAdherence": 0.5449101796407185
+    },
+    {
+      "daysInTreatment": 168,
+      "currentAdherence": 0.5416666666666666
+    },
+    {
+      "daysInTreatment": 169,
+      "currentAdherence": 0.5384615384615384
+    },
+    {
+      "daysInTreatment": 170,
+      "currentAdherence": 0.5352941176470588
+    },
+    {
+      "daysInTreatment": 171,
+      "currentAdherence": 0.5321637426900585
+    },
+    {
+      "daysInTreatment": 172,
+      "currentAdherence": 0.5290697674418605
+    },
+    {
+      "daysInTreatment": 173,
+      "currentAdherence": 0.5260115606936416
+    },
+    {
+      "daysInTreatment": 174,
+      "currentAdherence": 0.5229885057471264
+    },
+    {
+      "daysInTreatment": 175,
+      "currentAdherence": 0.52
+    },
+    {
+      "daysInTreatment": 176,
+      "currentAdherence": 0.5170454545454546
+    },
+    {
+      "daysInTreatment": 177,
+      "currentAdherence": 0.5141242937853108
+    },
+    {
+      "daysInTreatment": 178,
+      "currentAdherence": 0.5112359550561798
+    },
+    {
+      "daysInTreatment": 179,
+      "currentAdherence": 0.5083798882681564
+    },
+    {
+      "daysInTreatment": 180,
+      "currentAdherence": 0.5055555555555555
+    },
+    {
+      "daysInTreatment": 181,
+      "currentAdherence": 0.5027624309392266
+    }
+  ]
+}
