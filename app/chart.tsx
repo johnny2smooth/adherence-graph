@@ -1,30 +1,46 @@
 import * as d3 from 'd3';
+import { extent } from 'd3-array';
 import { format } from 'date-fns';
 import { CSSProperties } from 'react';
 
 export default function Chart({
   data,
+  color = 'text-blue-600',
 }: {
-  data: { value: number; date: number }[];
+  data: { [key: string]: { value: number; date: number }[] };
+  color?: string;
 }) {
-  let xScale = d3.scaleTime().domain([0, 180]).range([0, 100]);
-  let yScale = d3.scaleLinear().domain([0, 1]).range([100, 0]);
+  let allData = Object.values(data).flat();
+
+  let xExtent = d3.extent(allData, (d) => d.date);
+  let yExtent = d3.extent(allData, (d) => d.value);
+
+  let xScale = d3
+    .scaleTime()
+    .domain(xExtent as [number, number])
+    .range([0, 100]);
+  let yScale = d3
+    .scaleLinear()
+    .domain(yExtent as [number, number])
+    .range([100, 0]);
 
   let line = d3
-    .line<(typeof data)[number]>()
+    .line<{ value: number; date: number }>()
     .x((d) => xScale(d.date))
     .y((d) => yScale(d.value));
 
   // for each
-  let d = line(data);
+  let lines = Object.keys(data)
+    .map((key) => ({ key, d: line(data[key]) }))
+    .filter((line) => line.d !== null);
 
-  if (!d) {
+  if (!lines.length) {
     return null;
   }
 
   return (
     <div
-      className="@container relative h-full w-full"
+      className="@container relative h-[800px] w-full"
       style={
         {
           '--marginTop': '6px',
@@ -44,14 +60,14 @@ export default function Chart({
           overflow-visible
         "
       >
-        {data.map((day, i) => (
+        {Object.values(data)[0].map((day, i) => (
           <g key={i} className="overflow-visible font-medium text-gray-500">
             <text
               x={`${xScale(day.date)}%`}
               y="100%"
-              textAnchor={
-                i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
-              }
+              // textAnchor={
+              //   i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
+              // }
               fill="currentColor"
               className="@sm:inline hidden text-sm"
             >
@@ -60,9 +76,9 @@ export default function Chart({
             <text
               x={`${xScale(day.date)}%`}
               y="100%"
-              textAnchor={
-                i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
-              }
+              // textAnchor={
+              //   i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
+              // }
               fill="currentColor"
               className="@sm:hidden text-xs"
             >
@@ -136,14 +152,17 @@ export default function Chart({
             ))}
 
           {/* Line */}
-          <path
-            d={d}
-            fill="none"
-            className="text-gray-600"
-            stroke="currentColor"
-            strokeWidth="2"
-            vectorEffect="non-scaling-stroke"
-          />
+          {lines.map((line, i) => (
+            <path
+              key={i}
+              d={line.d || undefined}
+              fill="none"
+              className={`${color}`}
+              stroke="currentColor"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+            />
+          ))}
 
           {/* Circles */}
           {/* {data.map((d) => (
@@ -151,7 +170,7 @@ export default function Chart({
               key={d.date.toString()}
               d={`M ${xScale(d.date)} ${yScale(d.value)} l 0.0001 0`}
               vectorEffect="non-scaling-stroke"
-              strokeWidth="8"
+              strokeWidth="1"
               strokeLinecap="round"
               fill="none"
               stroke="currentColor"
