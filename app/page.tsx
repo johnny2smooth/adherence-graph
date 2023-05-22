@@ -10,13 +10,15 @@ let vaccarrezza = calculateAdherence(adherence1);
 let peron = calculateAdherence(adherence3);
 let cetrangolo = calculateAdherence(adherence4);
 let paroissien = calculateAdherence(adherence5);
+const all = { ...vaccarrezza, ...peron, ...cetrangolo, ...paroissien };
 
-export const revalidate = 0;
+export const revalidate = 1000;
 
 export default function Home() {
   return (
     <div className="grid grid-cols-2 gap-x-4 gap-y-12 p-4">
       <div className="col-span-2 h-60">
+        <Chart data={all} color="text-purple-400" />
         <Chart data={vaccarrezza} color="text-red-400" />
         <Chart data={peron} color="text-green-400" />
         <Chart data={cetrangolo} color="text-yellow-400" />
