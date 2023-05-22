@@ -1,26 +1,21 @@
-import * as d3 from "d3";
-import { format } from "date-fns";
-import { CSSProperties } from "react";
+import * as d3 from 'd3';
+import { format } from 'date-fns';
+import { CSSProperties } from 'react';
 
 export default function Chart({
   data,
 }: {
   data: { value: number; date: number }[];
 }) {
-  let xScale = d3
-    .scaleTime()
-    .domain([data[0].date, data[data.length - 1].date])
-    .range([0, 100]);
-  let yScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(data.map((d) => d.value)) ?? 0])
-    .range([100, 0]);
+  let xScale = d3.scaleTime().domain([0, 180]).range([0, 100]);
+  let yScale = d3.scaleLinear().domain([0, 1]).range([100, 0]);
 
   let line = d3
     .line<(typeof data)[number]>()
     .x((d) => xScale(d.date))
     .y((d) => yScale(d.value));
 
+  // for each
   let d = line(data);
 
   if (!d) {
@@ -32,10 +27,10 @@ export default function Chart({
       className="@container relative h-full w-full"
       style={
         {
-          "--marginTop": "6px",
-          "--marginRight": "8px",
-          "--marginBottom": "25px",
-          "--marginLeft": "25px",
+          '--marginTop': '6px',
+          '--marginRight': '8px',
+          '--marginBottom': '25px',
+          '--marginLeft': '25px',
         } as CSSProperties
       }
     >
@@ -55,7 +50,7 @@ export default function Chart({
               x={`${xScale(day.date)}%`}
               y="100%"
               textAnchor={
-                i === 0 ? "start" : i === data.length - 1 ? "end" : "middle"
+                i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
               }
               fill="currentColor"
               className="@sm:inline hidden text-sm"
@@ -66,7 +61,7 @@ export default function Chart({
               x={`${xScale(day.date)}%`}
               y="100%"
               textAnchor={
-                i === 0 ? "start" : i === data.length - 1 ? "end" : "middle"
+                i === 0 ? 'start' : i === data.length - 1 ? 'end' : 'middle'
               }
               fill="currentColor"
               className="@sm:hidden text-xs"
@@ -88,7 +83,7 @@ export default function Chart({
         <g className="translate-x-4">
           {yScale
             .ticks(8)
-            .map(yScale.tickFormat(8, "d"))
+            .map(yScale.tickFormat(8, 'd'))
             .map((value, i) => (
               <text
                 key={i}
@@ -122,7 +117,7 @@ export default function Chart({
           {/* Grid lines */}
           {yScale
             .ticks(8)
-            .map(yScale.tickFormat(8, "d"))
+            .map(yScale.tickFormat(8, 'd'))
             .map((active, i) => (
               <g
                 transform={`translate(0,${yScale(+active)})`}
