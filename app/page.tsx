@@ -1,10 +1,10 @@
-import Chart from './chart';
-import test from './test.json';
-import adherence1 from './adherence1.json';
-import adherence3 from './adherence3.json';
-import adherence4 from './adherence4.json';
-import adherence5 from './adherence5.json';
-import calculateAdherence from './calculateAdherence';
+import Chart from "./chart";
+import test from "./test.json";
+import adherence1 from "./adherence1.json";
+import adherence3 from "./adherence3.json";
+import adherence4 from "./adherence4.json";
+import adherence5 from "./adherence5.json";
+import calculateAdherence from "./calculateAdherence";
 
 let vaccarrezza = calculateAdherence(adherence1);
 let peron = calculateAdherence(adherence3);
