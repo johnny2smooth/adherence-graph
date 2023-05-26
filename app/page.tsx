@@ -6,13 +6,11 @@ import adherence4 from "./adherence4.json";
 import adherence5 from "./adherence5.json";
 import calculateAdherence from "./calcDailyAdherence";
 
-let vaccarrezza = calculateAdherence(adherence1);
-let peron = calculateAdherence(adherence3);
-let cetrangolo = calculateAdherence(adherence4);
-let paroissien = calculateAdherence(adherence5);
-const all = { ...vaccarrezza, ...peron, ...cetrangolo, ...paroissien };
-
-export const revalidate = 1000;
+let site1 = calculateAdherence(adherence1);
+let site2 = calculateAdherence(adherence3);
+let site3 = calculateAdherence(adherence4);
+let site4 = calculateAdherence(adherence5);
+const allSites = { ...site1, ...site2, ...site3, ...site4 };
 
 export default function Home() {
   return (
