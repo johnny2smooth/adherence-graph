@@ -16,7 +16,7 @@ export default function calculateAdherence(adherence: Adherence): Result {
   for (let key in adherence) {
     let daysTaken = 0;
     result[key] = adherence[key].map((value, index) => {
-      if (value === 'taken') {
+      if (value === "taken") {
         daysTaken++;
       }
       return {

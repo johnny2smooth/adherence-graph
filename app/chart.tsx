@@ -159,7 +159,7 @@ export default function Chart({
               fill="none"
               className={`${color}`}
               stroke="currentColor"
-              strokeWidth="1"
+              strokeWidth="5"
               opacity=".5"
               vectorEffect="non-scaling-stroke"
             />
