@@ -1,11 +1,11 @@
-import * as d3 from 'd3';
-import { extent } from 'd3-array';
-import { format } from 'date-fns';
-import { CSSProperties } from 'react';
+import * as d3 from "d3";
+import { extent } from "d3-array";
+import { format } from "date-fns";
+import { CSSProperties } from "react";
 
 export default function Chart({
   data,
-  color = 'text-blue-600',
+  color = "text-blue-600",
 }: {
   data: { [key: string]: { value: number; date: number }[] };
   color?: string;
@@ -39,20 +39,20 @@ export default function Chart({
 
   return (
     <div
-      className="@container relative h-[600px] w-full"
+      className="@container relative h-[400px] w-full"
       style={
         {
-          '--marginTop': '6px',
-          '--marginRight': '8px',
-          '--marginBottom': '25px',
-          '--marginLeft': '25px',
+          "--marginTop": "6px",
+          "--marginRight": "8px",
+          "--marginBottom": "25px",
+          "--marginLeft": "25px",
         } as CSSProperties
       }
     >
       {/* X axis */}
       <svg
         className="absolute inset-0
-          h-[calc(100%-var(--marginTop))]
+          h-[calc(120%-var(--marginTop))]
           w-[calc(100%-var(--marginLeft)-var(--marginRight))]
           translate-x-[var(--marginLeft)]
           translate-y-[var(--marginTop)]
@@ -98,7 +98,7 @@ export default function Chart({
         <g className="translate-x-4">
           {yScale
             .ticks(8)
-            .map(yScale.tickFormat(8, 'd'))
+            .map(yScale.tickFormat(8, "d"))
             .map((value, i) => (
               <text
                 key={i}
@@ -132,7 +132,7 @@ export default function Chart({
           {/* Grid lines */}
           {yScale
             .ticks(8)
-            .map(yScale.tickFormat(8, 'd'))
+            .map(yScale.tickFormat(8, "d"))
             .map((active, i) => (
               <g
                 transform={`translate(0,${yScale(+active)})`}
@@ -144,7 +144,7 @@ export default function Chart({
                   x2={100}
                   stroke="currentColor"
                   strokeDasharray="6,5"
-                  strokeWidth={0.5}
+                  strokeWidth={0.9}
                   vectorEffect="non-scaling-stroke"
                 />
               </g>
